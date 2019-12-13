@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+#wrapper {
+    width: 976px;
+    background-color: #1A1A1A;
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+
+header img, header p {
+    margin: 20px;
+    display: inline-block;
+}
+
+header img {
+    width: 200px;
+}
+
+header p {
+    margin-top: 34px;
+    margin-left: 558px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav img {
+    width: 100%;
+}
+
+nav a{
+    background-image: linear-gradient(to bottom, #7c7c7c, black);
+    border-right: 1px solid rgb(63, 62, 62);
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#lastA {
+    border-right: none;
+    width: 460px;
+}
+
+.main img {
+    width: 48px;
+}
+
+main img, main h3 {
+    display: inline-block;
+}
+
+.main img, .main h3, .main p {
+    text-align: left;
+}
+
+main p {
+    margin-left: 50px;
+}
+
+.main {
+    display:inline-block;
+    width: 190px;
+    margin: 20px 25px 20px 25px;
+}
+
+.main h3 {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F98F43
+}
+
+#midBlock {
+    padding: 30px;
+    background: repeating-linear-gradient(
+    -55deg,
+    #222,
+    #222 10px,
+    #333 10px,
+    #333 20px
+  );
+}
+
+#midBlock h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+#midBlock h2, #midBlock a {
+    display: inline-block;
+}
+
+#midBlock h2, #midBlock p {
+    margin: 5px;
+}
+
+#midBlock p {
+    width: 560px;
+}
+
+#midBlock a {
+    margin-top: -50px;
+    margin-left: 810px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #fd9b54, #fa8735, #fd9b54);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#viewAllProjects {
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 718px;
+    font-style: italic;
+    color: #F98F43;
+    text-decoration: none;
+}
+
+footer h3 {
+    margin: 20px;
+    margin-left: 33px;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.portfolio {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: inline-block;
+    width: 200px;
+}
+
+.portfolio img {
+    height: 126.406px;
+    padding: 0px;
+    border: 5px solid gray;
+}
+.portfolio h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F98F43;
+}
+
+#backToTop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 897px;
+    color: darkgray;
+    font-size: 10px;
+    text-decoration: none;
+}
+

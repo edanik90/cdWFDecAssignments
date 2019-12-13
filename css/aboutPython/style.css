@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #25538f;
+}
+a {
+    color: yellow;
+    border-right: 1px solid black;
+    padding: 0px 10px;
+}
+
+nav {
+    border-radius: 5px;
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+#largeA {
+    border-right: none;
+}
+
+form {
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    padding: 10px 30px;
+    background-color: #555252;
+    width: 300px;
+}
+
+#search {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+}
+
+#go {
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #25538f;
+    border-radius: 5px;
+}
+
+#search {
+
+}

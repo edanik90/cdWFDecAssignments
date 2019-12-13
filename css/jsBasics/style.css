@@ -1,0 +1,46 @@
+*{
+    color: white;
+    vertical-align: top;
+    box-sizing: border-box;
+   }
+   a{
+    color: rgb(60, 200, 118);
+   }
+   #wrapper{
+    width: 970px;
+    background-color: rgb(39, 39, 88);
+    margin: 0px auto; /*puts the wrapper block in the middle of the screen*/
+    padding: 20px;
+   }
+   header{
+    background-color:rgb(184, 26, 26);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+   }
+   nav{
+    background-color: rgb(7, 110, 88);
+    padding: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 10px;
+   }
+   main{
+    width: 653px;
+    background-color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+   }
+   main span{
+    color: rgb(179, 79, 179);
+    }
+   footer{
+    background-color: rgb(85, 85, 85);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+   }
+body{
+    background-image: url(b3.jpg);
+}
