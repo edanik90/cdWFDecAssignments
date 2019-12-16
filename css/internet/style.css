@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+    background-image: linear-gradient(#E5E5E5,  #ffffff, #ffffff);
+}
+
+header {
+    background-color: white;
+}
+
+header img {
+    width: 100px;
+}
+
+header span {
+    color: #2A6BA1;
+}
+
+header h1 {
+    margin-top: 35px;
+    display: inline-block;
+    color: #535353;
+}
+
+header h2 {
+    margin-top: -10px;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    background-image: linear-gradient(#2A6BA1, #4D80AB, #2A6BA1);
+}
+
+header h1, header span {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+nav {
+    display: inline-block;
+    width: 200px;
+    padding-top: 20px;
+}
+
+nav span {
+    color: red;
+}
+
+nav p {
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+nav h4, nav p {
+    margin: 10px;
+}
+
+nav h3 {
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    margin: auto;
+    margin-top: -260px;
+    text-align: center;
+    width: 160px;
+}
+
+#navAdd {
+    border-top: 1px solid #5c5c5c;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.navBlue {
+    color:#22659E;
+}
+
+#watchAVideo, #moreResources, #learnMore {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    width: 155px;
+    margin: auto;
+}
+
+#watchAVideo {
+    background-image:linear-gradient(#5C93C0, #2A6BA1);
+    box-shadow: 2px 2px #5c5c5c;
+    margin-bottom: 5px;
+}
+
+#moreResources {
+    background-image:linear-gradient(#ECA94F,  #F07700);
+    box-shadow: 2px 2px #5c5c5c;
+
+}
+
+#learnMore {
+    margin-top: 10px;
+    position: relative;
+    background-image:linear-gradient(#71CFDF,  #00C1DF);
+}
+
+#addBackgrnd {
+    display: block;
+    margin: 0px auto;
+    width: 190px;
+}
+
+
+#ninja {
+    display: block;
+    margin: 0px auto;
+    width: 80px;
+}
+
+#home {
+    margin: 10px 0px 10px 10px;
+    width: 20px;
+}
+
+main {
+    width: 745px;
+    margin: 0px 10px 0px 10px;
+    display: inline-block;
+}
+
+#phone {
+    margin-left: 468px;
+    width: 40px;
+}
+
+#dns label {
+    margin-top: 15px;
+    display: inline-block;
+    font-weight: bold;
+    color: #2A6BA1;
+}
+
+#dns div {
+    display: inline-block;
+}
+
+#dns div h2 {
+    color: #00C0DF;
+}
+
+#dns div h6 {
+    color: #5c5c5c;
+}
+
+#dns {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #5c5c5c;
+}
+
+#mainContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+main h3 {
+    margin-bottom: 10px;
+    color: #22659E;
+    font-size: 18px;
+}
+
+#mainContent ul li, #mainContent ol li {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+#mainContent p {
+    margin-bottom: 10px;
+}
+
+.blueText {
+    font-weight: bold;
+    color: #22659E;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+#clientServer {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+footer {
+    margin-top: 20px;
+    border-left: 5px solid #0085E0;
+    border-top: 5px solid #0085E0;
+    border-right: 5px solid #0085E0;
+}
+
+footer img {
+    margin: 15px;
+    width: 120px;
+}
+
+#theBig3 {
+    margin-top: 15px;
+    display: inline-block;
+    width: 570px;
+}
+
+#theBig3 p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+#theBig3 a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #0085E0;
+}

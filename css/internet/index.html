@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Internet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="./images/globe.png" alt="Picture of globe">
+            <h1>The Inter<span>net</span></h1>
+            <h2>The World Wibe Web</h2>
+        </header>
+        <nav>
+            <h4>So, what's an <span>Internet?</span></h4>
+            <p>
+                An <span class="navBlue">Inter</span>connected <span class="navBlue">Net</span>work of computers all
+                around the world!
+            </p>
+            <a id="watchAVideo" href="">WATCH A VIDEO</a>
+            <a id="moreResources" href="">MORE RESOURCES</a>
+            <div id="navAdd">
+                <img id="addBackgrnd" src="./images/ad_background.png" alt="add background">
+                <h3>Reinvent your career in just 14 weeks</h3>
+                <img id="ninja" src="./images/ninja.png" alt="Ninja">
+                <a id="learnMore" href="">Learn More &rsaquo;&rsaquo;&rsaquo; </a>
+            </div>
+        </nav>
+        <main>
+            <div id="dns">
+                <img id="home" src="./images/home.png" alt="Home"> <label>DNS</label>
+                <img id="phone" src="./images/phone.png" alt="Phone">
+                <div>
+                    <h6>Mon - Fri 9 a.m. - 5 p.m. (EST)</h6>
+                    <h2>855.967.3787</h2>
+                    <h6>International +1.617.963.0555</h6>
+                </div>
+            </div>
+            <div id="mainContent">
+                <h3>Clients and Servers</h3>
+                <p>
+                    Computers connected to the <span class="blueText">Web</span> are called <span
+                        class="boldText">clients</span> and <span class="boldText">servers.</span>
+                </p>
+                <ul>
+                    <li>
+                        <span class="blueText">Clients</span> are the typical Web user's Internet-connected devices and
+                        <span class="blueText">Web-accessing software</span> available on those devices (usually a web
+                        browser like Firefox or Chrome).
+                    </li>
+                    <li>
+                        <span class="blueText">Servers</span> are computers that store <span class="blueText">webpages,
+                            sites</span>, or <span class="blueText">apps</span>. When a client device wants to access a
+                        webpage, a copy of the webpage is downloaded from the server onto the client machine to be
+                        displayed in the user's web browser.
+                    </li>
+                </ul>
+                <img id="clientServer" src="./images/client_server.jpg" alt="Client-server">
+                <h3>So What Actually Happens?</h3>
+                <ol>
+                    <li>
+                        The browser goes to the <span class="blueText">DNS server</span> and finds the real address of the
+                        <span class="blueText">server</span> that the website lives on.
+                    </li>
+                    <li>
+                        The browser sends an <span class="blueText">HTTP request</span> message to the server asking it
+                        to send a copy of the website to the client.
+                    </li>
+                    <li>
+                        If the server approves the client's request, the server sends the client a <span
+                            class="blueText">"200 OK" message</span>,
+                        which means "Permission granted! Here you go!", and then starts sending the website's files to
+                        the browser as a series of small chunks.
+                    </li>
+                    <li>
+                        The browser assembles the small chunks into a comlpete website and displays it to you!
+                    </li>
+                </ol>
+            </div>
+            <footer>
+                <img src="./images/html.png" alt="The Big 3">
+                <div id="theBig3">
+                    <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+                    <p>While the server can process information in many differnet languages, the files that they serve
+                        to the client are <span class="iText">always</span> going to be some combination of HTML, CSS,
+                        and JavaScript!
+                    </p>
+                    <p>Learn more about the Big 3 <a href="">here</a>!</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+</body>
+
+</html>
