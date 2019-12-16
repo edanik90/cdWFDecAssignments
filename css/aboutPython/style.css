@@ -1,25 +1,146 @@
 * {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
     font-family: sans-serif;
+    color: white;
 }
 
-//
-
-body {
+#wrapper {
     background-color: #25538f;
+    margin: 0px auto;
+    width: 970px;
+    text-align: center;
 }
-a {
+
+header img {
+    margin: 20px;
+    width: 320px;
+}
+
+header div {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 210px;
+}
+
+header div label {
+    margin-left: 100px;
+}
+
+header a {
     color: yellow;
     border-right: 1px solid black;
     padding: 0px 10px;
 }
 
 nav {
+    margin: 0px 29px 0px 69px;
+    text-align: center;
+    padding-right: 50px;
+    width: max-content;
     border-radius: 5px;
-    
+    background-image: linear-gradient(#2277ff, #498efc, #2277ff);
+    box-shadow: 3px 3px black;
 }
 
 nav a{
+    display: inline-block;
+    margin: 10px 0px 10px 50px;
     text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    margin-left: 80px;
+    text-align: center;
+}
+
+main ul li {
+    list-style-type: none;
+    margin: 10px 0 10px 0;
+}
+
+#mainNav, #mainContent {
+    padding: 20px;
+    display: inline-block;
+}
+
+#mainNav ul li::before {
+    content: ">>";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: yellow; /* Change the color */
+    display: inline-block;
+    font-weight: bold;
+    width: 2em;
+    margin-left: -1em;
+}
+
+#mainContent ul li {
+    color: yellow;
+    font-size: 18px;
+    font-style: italic;
+    list-style-type: none;
+}
+
+#mainContent {
+    width: 600px;
+}
+
+#mainContent h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#underMain {
+    padding: 10px 10px 10px 50px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: white;
+}
+
+#underMain ul {
+    margin-left: 30px;
+}
+
+#underMain ul li {
+    color: black;
+}
+
+.mainSubBlock {
+    margin-right: 20px;
+    min-height: 240px;
+    width: 400px;
+    display: inline-block;
+    border-top: 5px solid #2277ff;
+}
+
+.mainSubBlock p, .mainSubBlock h3 {
+    color: black;
+}
+
+.mainSubBlock p, .mainSubBlock h3 {
+    width: 300px;
+}
+
+.mainSubBlock ul, .mainSubBlock ul li, .mainSubBlock p, .mainSubBlock h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.mainSubBlock ul, .mainSubBlock ul li {
+    width: 250px;
+    list-style-type: square;
+}
+
+.mainSubBlock a{
+    text-decoration: none;
+    color: #2277ff;
+}
+
+.mainSubBlock p a {
+    font-size: 13px;
 }
 
 #largeA {
@@ -27,8 +148,9 @@ nav a{
 }
 
 form {
+    margin-top: 10px;
     border-radius: 5px;
-    box-shadow: 5px 5px;
+    box-shadow: 3px 3px black;
     padding: 10px 30px;
     background-color: #555252;
     width: 300px;
@@ -41,13 +163,29 @@ form {
 }
 
 #go {
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 10px 20px;
     color: white;
     background-color: #25538f;
     border-radius: 5px;
 }
 
-#search {
+footer {
+    background-image: linear-gradient(#25538f, #4570a8);
+    padding: 30px 10px 10px 10px;
+}
 
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0px 20px 50px;
+    font-size: 16px;
+}
+
+footer a, h6 {
+    color: #97b8f7;
+}
+
+p, .mainSubBlock ul li {
+    font-size: 14px;
 }
