@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hover In/Out</title>
+    <style type="text/css">
+        img {
+            margin: 10px;
+            width: 170px;
+            height: 350px;
+            display: inline-block;
+            border: 1px solid black;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <img name="luke" src="luke0.png" alt="Young Luke">
+            <img name="vader" src="vader0.png" alt="Young Vader">
+            <img name="solo" src="solo0.png" alt="Young Solo">
+            <img name="chewy" src="chewy0.png" alt="Young Chewbacca">
+        </div>
+        <h1>Chewbacca never changes... at least, for me lol</h1>
+        <h4>(but the JS code for him works just the same way as it does for the rest of characters. No cheating)</h4>
+    </div>
+
+    <script>
+        $('img').hover(function () {
+            var name = $(this).attr("name");
+            $(this).attr("src", name + 1 + ".png");
+        }, function () {
+            var name = $(this).attr("name");
+            $(this).attr("src", name + 0 + ".png");
+        });
+    </script>
+</body>
+
+</html>
