@@ -120,10 +120,12 @@ document.onkeydown = function (e) {
     if (e.keyCode == 38 && world[pacman.y - 1][pacman.x] != 2) {
         pacman.y--;
         checkIfGameOver();
+        // here would be a line for "packman-up.gif"
     }
     if (e.keyCode == 40 && world[pacman.y + 1][pacman.x] != 2) {
         pacman.y++;
         checkIfGameOver();
+        // here would be a line for "packman-down.gif"
     }
     if (world[pacman.y][pacman.x] == 1) {
         world[pacman.y][pacman.x] = 0;
