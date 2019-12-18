@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+button {
+    margin-left: 100px;
+    display: block;
+    background-color: cornflowerblue;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    box-shadow: 2px 2px 10px black;
+}
