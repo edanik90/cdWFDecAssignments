@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Functions</title>
+</head>
+<style type="text/css">
+    div {
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    #slideToggle img {
+        display: none;
+    }
+
+    .red {
+        background-color: red;
+        padding: 20px;
+        color: white;
+    }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<body>
+    <div id="addClass">
+        <h1>AddClass</h1>
+        <button id="add">Add Class Red</button>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <p>Click the button to add class 'red' to this paragraph</p>
+    </div>
+    <div id="slideToggle">
+        <h1>SlideToggle</h1>
+        <button id="slideT">SlideToggle</button>
+        <button id="before">Before</button>
+        <button id="after">After</button>
+        <button id="text">Change the header</button>
+        <button id="html">Set value of p above to this paragraph</button>
+        <div style="border: none;"></div>
+        <p>Click the button to slidetoggle a hidden image</p>
+        <img src="python.png">
+    </div>
+    <div id="append">
+        <h1>Append</h1>
+        <button id="app">Append</button>
+        <button id="slideDown">Slide Down</button>
+        <button id="slideUp">Slide Up</button>
+        <p>Click the button to append a new paragraph!</p>
+    </div>
+    <script type="text/javaScript">
+        $('#add').click(function () {
+            $('#addClass p').addClass("red");
+        });
+
+        $('#show').click(function () {
+            $('#addClass p').show();
+        });
+
+        $('#hide').click(function () {
+            $('#addClass p').hide();
+        });
+
+        $('#slideT').click(function () {
+            $('#slideToggle img').slideToggle();
+        });
+
+        $('#html').click(function () {
+            var someString = $('#addClass p').html();
+            $('#slideToggle p').text (someString);
+        });
+
+        $('#text').click(function () {
+            $('#slideToggle h1').text("This is a new header!");
+        });
+
+        $('#before').click(function () {
+            $('#slideToggle p').before("This text will be added before!");
+        });
+
+        $('#after').click(function () {
+            $('#slideToggle p').after("This text will be added after!");
+        });
+
+        $('#app').click(function () {
+            $('#append p').append("This is a new paragraph!");
+        });
+
+        $('#slideDown').click(function () {
+            $('#append p').slideDown();
+        });
+
+        $('#slideUp').click(function () {
+            $('#append p').slideUp();
+        });
+
+        $('#append h1').click(function () {
+                $('#append p').fadeOut("slow");
+        });
+
+        $('#slideToggle h1').click(function () {
+                $('#append p').fadeIn("slow");
+        });
+
+
+
+    </script>
+
+</body>
+</html>
