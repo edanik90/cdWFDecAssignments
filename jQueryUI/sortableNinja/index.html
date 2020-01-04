@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sortable Ninja</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #wrapper {
+            display: inline-block;
+            width: 400px;
+        }
+
+        img {
+            display: block;
+            width: 368px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function(){
+            $('img').draggable();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <img src="sort1.png" alt="sort1">
+        <img src="sort2.png" alt="sort2">
+        <img src="sort3.png" alt="sort3">
+        <img src="sort4.png" alt="sort4">
+        <img src="sort5.png" alt="sort5">
+    </div>
+</body>
+
+</html>
